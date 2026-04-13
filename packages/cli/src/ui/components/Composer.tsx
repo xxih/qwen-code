@@ -57,7 +57,7 @@ export const Composer = () => {
   );
 
   return (
-    <Box flexDirection="column" marginTop={1}>
+    <Box flexDirection="column">
       {!uiState.embeddedShellFocused && (
         <LoadingIndicator
           // Hide loading phrases when enableLoadingPhrases is explicitly false.
